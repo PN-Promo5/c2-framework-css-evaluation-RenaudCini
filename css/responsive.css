@@ -1,0 +1,96 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  lien_info, .lien_progra {
+    margin-top: 95px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 8em;
+  }
+  .biennale {
+    font-size: 7rem;
+}
+#adresse
+{
+  font-size: 3em;
+}
+.bamp-4 {
+    margin-top: -19%;
+    width: 1380px;
+    margin: left;
+    margin-left: 144px;
+}
+.img_plan {
+    height: 40%;
+    margin-top: 0%;
+}
+}
+
+/* Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 3em;
+  }
+
+#Information_lien_sm ,#Information_lien_2sm,#Planning_lien_sm
+{  font-size: 1.4em;
+width: 100px;
+
+}
+#Planning_lien_sm
+{
+  font-size: 2em;
+}
+#Information_lien_2sm
+{
+      margin-right: 10px
+}
+
+.lien_info_sm,.lien_info_2sm,.lien_progra_sm
+{
+  width: 126px;
+}
+.lien_info_sm,.lien_info_2sm
+{
+margin-top: 55px;
+}
+.biennale
+{
+  margin-left: 132px;
+}
+.lien_progra_sm {
+    width: 126px;
+    margin-top: 31px;
+}
+.info-heur
+{
+  margin-top: 50px;
+}
+.lien_xs
+{
+  margin-top: 20px;
+}
+
+
+}

@@ -1,0 +1,122 @@
+
+
+body
+{
+  overflow: hidden;
+}
+
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+
+}
+
+
+
+#Information_lien, #Information_lien_2, #Planning_lien_2, #Planning_lien {
+  font-size: 2rem;
+  display: block;
+  animation: rotation 10s infinite steps(3000);
+}
+
+.height_1
+{
+  height: 205px;
+}
+.height_2
+{
+  height: 150px;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+h1 {
+font-size: 8rem;
+}
+.biennale
+{
+  font-size: 6rem;
+}
+
+ .lien_info,.lien_progra
+{
+  margin-top: 140px;
+
+}
+
+/*planning hmtl*/
+.bamp a,.bamp-2 a,.bamp-3 {
+  font-size: 1.5em;
+}
+.bamp
+{
+  margin-top: 24px;
+}
+.ml-6
+{
+  margin-left: 8.5%;
+}
+
+.ml-7
+{
+  margin-left: 16.5%;
+}
+.ml-8
+{
+  margin-left: 24.5%;
+}
+.ml-9
+{
+  margin-left:43%;
+}
+ .bamp-2,.bamp-3
+ {
+   position: absolute;
+     margin-top: 24px;
+ }
+.bamp-2
+{
+
+  left: -20%;
+
+    width: 100%;
+}
+.bamp-3
+{
+
+  left: -9%;
+
+
+    width: 100%;
+}
+#adresse
+{
+  font-size: 5em;
+}
+.bamp-4
+{
+margin-top: -25%;
+width: 1500px;
+}
+.img_plan{
+    height: 47%;
+    margin-top: 10%;
+}
+.info-heur
+{
+  font-size: 2em;
+  margin-top: 32px;
+
+}
+
+/*page 3*/
